@@ -1,0 +1,179 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pink-color: #ff1949;
+    --black-color: #373435;
+    --black-gray: #12141b;
+}
+.contact-us{
+    height: 60vh;
+    width: 100%;
+    background: url("https://img.freepik.com/free-photo/closeup-business-woman-hand-typing-laptop-keyboard-with-m_1232-2746.jpg?w=1380&t=st=1688631242~exp=1688631842~hmac=125bda183127293a6edab66e2d7a6e25a7780b7ae94ce61ab87769dc4dd92cee") no-repeat,gray;
+    background-size: cover;
+    background-position: center center;
+}
+.contact-top-nav{
+    width: 100%;
+    background: var(--pink-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info div{
+    color: white;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 50px;
+    transform: scale(0.95);
+}
+.contact-info div i{
+    font-size: 1.7rem;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+}
+.contact-info div h3{
+    margin-top: 5px;
+    font-size: 16px;
+}
+.login-btn{
+    border: none;
+}
+.login-btn a{
+    padding: 13px 35px;
+    background: white;
+    display: inline-block;
+    font-weight: 1000;
+    text-decoration: none;
+    color: var(--pink-color);
+}
+.login-btn a:hover{
+    background: var(--black-color);
+    color: white;
+}
+.login-btn a i{
+    margin-right: 10px;
+}
+.menu-bar{
+    width: 80%;
+    background: white;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: -5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-content{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.menu-bar li a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--black-color);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.menu-bar li a:hover{
+    color: var(--pink-color);
+}
+.menu-bar img{
+    height: 70px;
+}
+
+.contact-us-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contact-us-text a{
+    margin-right: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+.contact-us-text a:hover{
+    color: var(--pink-color);
+}
+.contact-us-text i{
+    margin-right: 10px;
+    color: white;
+}
+.contact-us-text p{
+    color: white;
+    font-size: 1.3rem;
+}
+.contact-us-text h1{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+
+
+.contact-us-form-heading{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us-form-heading h3{
+    color: var(--pink-color);
+    margin-top: 50px;
+    font-weight: 500;
+}
+.contact-us-form-heading h1{
+    color: black;
+    margin-top: 10px;
+}
+
+.last-footer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.last-footer img{
+    height: 80px;
+}
+.last-footer p{
+    margin-top: 10px;
+}
+.footer-contact-info-box{
+    width: 40% !important;
+}
+
+.footer-contact-info{
+    color: white;
+    margin-top: 30px;
+}
+.footer-contact-info div{
+    margin-top: 10px;
+    position: relative;
+    margin-left: 30px;
+}
+.footer-contact-info div i{
+    position: absolute;
+    top: 10px;
+    left: -30px;
+}
